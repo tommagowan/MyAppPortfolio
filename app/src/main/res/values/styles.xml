@@ -1,0 +1,13 @@
+<resources xmlns:item="http://schemas.android.com/apk/res-auto">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Base.ThemeOverlay.AppCompat.Dark" />
+    <style name="AppTheme.Button" parent="AppTheme">
+        <item:item name="android:layout_width">fill_parent</item:item>
+        <item:item name="android:layout_height">wrap_content</item:item>
+        <item:item name="android:layout_gravity">center_horizontal</item:item>
+        <item:item name="android:background">#F08C35</item:item>
+        <item:item name="android:layout_margin">10dp</item:item>
+    </style>
+
+</resources>

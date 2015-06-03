@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Base.Theme.AppCompat"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="50dp"
+    android:layout_marginRight="50dp"
+    android:orientation="vertical"
+    tools:context=".AppLaunchActivity">
+
+    <TextView
+        style="@style/Base.TextAppearance.AppCompat.Headline"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/app_launch_title" />
+
+    <Button
+        android:id="@+id/app_launch_spotify_btn"
+        style="@style/AppTheme.Button"
+        android:onClick="onButtonClick"
+        android:text="@string/app_launch_spotify_btn" />
+
+    <Button
+        android:id="@+id/app_launch_football_scores_app_btn"
+        style="@style/AppTheme.Button"
+        android:onClick="onButtonClick"
+        android:text="@string/app_launch_football_scores_app_btn" />
+
+    <Button
+        android:id="@+id/app_launch_library_app_btn"
+        style="@style/AppTheme.Button"
+        android:onClick="onButtonClick"
+        android:text="@string/app_launch_library_app_btn" />
+
+    <Button
+        android:id="@+id/app_launch_build_it_bigger_btn"
+        style="@style/AppTheme.Button"
+        android:onClick="onButtonClick"
+        android:text="@string/app_launch_build_it_bigger_btn" />
+
+    <Button
+        android:id="@+id/app_launch_xyz_reader_bt"
+        style="@style/AppTheme.Button"
+        android:onClick="onButtonClick"
+        android:text="@string/app_launch_xyz_reader_btn" />
+
+    <Button
+        android:id="@+id/app_launch_capstone_btn"
+        style="@style/AppTheme.Button"
+        android:background="#fff04623"
+        android:onClick="onButtonClick"
+        android:text="@string/app_launch_capstone_btn" />
+
+</LinearLayout>
